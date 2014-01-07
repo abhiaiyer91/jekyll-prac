@@ -1,0 +1,95 @@
+/* Page Styles */
+/* Home Page */
+#footer {
+  background-color: #121417;
+}
+#footer p {
+  font-size: 26px;
+  color: #fff;
+}
+#footer h1 {
+  font-size: 75px;
+  letter-spacing: 0em;
+}
+#footer .span4 {
+  border-right: 1px solid #fff;
+  margin: 0px auto;
+}
+#footer .span2 {
+  border-right: 1px solid #fff;
+  margin: 0px auto;
+}
+#footer .last {
+  border-right: none;
+}
+
+#footer_alt_2{
+  height:50px;
+  padding-top: 20px;
+}
+#footer_alt {
+  background: url('/img/innerbanner.jpg') no-repeat scroll;
+  height:270px;
+}
+#footer_alt ul {
+  padding-top: 90px;
+  color: #fff;
+  font-size: 22px;
+}
+#footer_alt ul li {
+  padding: 5px;
+}
+
+#footer_alt ul li a{
+  color:#d3d3d3;
+}
+
+#footer_alt ul li a:hover{
+  color:#fff;
+}
+
+#footer_alt .footer-btm {
+  color: #fff;
+  padding-top: 20px;
+}
+/**** LOGO****/
+.logo a {
+  float: left;
+  margin: 26px 0 0 0;
+  webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  color: #fff;
+  font-size: 40px !important;
+}
+.logo a:hover {
+  opacity: .80;
+}
+
+.blog_text{
+  height:162px;
+}
+
+.blog-txt{
+  height:149px
+}
+
+.bottom_foot a{
+  font-size:20px;
+  color:#fff !important;
+  margin-top: 2px;
+}
+
+.bottom_foot a:hover{
+  font-size:21px;
+  color:#d3d3d3 !important;
+}
+
+.row .media img{
+  height:233px !important;
+  width:273px !important;
+}
+#index{
+  background: #fff
+}

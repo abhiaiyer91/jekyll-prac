@@ -1,0 +1,75 @@
+---
+layout: default
+---
+ 
+ <section class="content">
+
+
+<!--BLOG VIEW -->
+<div class="container entry">
+  <div class="row">
+    <div class="span8 pad15">
+      <ul>
+    {% for post in site.posts limit: 5 %} 
+        <li>
+          <div class="hover_img">
+             <a href="{{ post.url }}"><img src="{{post.image}}"></a>
+          </div>
+          <div class="row">
+             <div class="span4">
+                <div class="btn btn-medium btn-rounded btn-blog">{{ post.date | date_to_string}}</div>
+             </div>
+          </div>
+
+          <div class="row">
+           <div class="span8">
+             <h1 class="post_link "><a href="{{post.url}}">{{post.title}}</a></h1>
+           </div>
+           </div>
+
+           <div class="post-meta muted">
+             <ul>
+              <li>Posted by</li>
+              <a href="#">{{post.author}}</a> </li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <div class="span8">
+              <p>{{post.summary}} <a href="{{post.url}}">[&#8230;]</a></p>
+            </div>
+          </div>
+
+          <div class="read_more"><a href="{{post.url}}">READ MORE &rarr;</a></div>
+          <!--End Post-->
+          <div class="pad30"></div>
+        </li>
+  {% endfor %}
+     </ul>
+
+     <div class="pagination">
+        <ul>
+           <li class="disabled"><a href="#">&laquo;</a></li>
+           <li class="active"><a href="#">1</a></li>
+           <li><a href="#">2</a></li>
+           <li><a href="#">3</a></li>
+           <li><a href="#">4</a></li>
+           <li><a href="#">&raquo;</a></li>
+        </ul>
+  </div>
+</div>
+
+  <div class="span4 pad15">
+              <a class="twitter-timeline" href="https://twitter.com/BarrySanders" data-widget-id="418963112159494145">Tweets by @BarrySanders</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                
+              </div>
+</div>
+ 
+</section>
+
+    
+
+    
+   
